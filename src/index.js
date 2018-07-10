@@ -10,11 +10,11 @@ const client = new ApolloClient({
 });
 
 const WrappedApp = (
-    <ApolloProvider client={client}>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
-    </ApolloProvider>
+    <BrowserRouter>
+        <ApolloProvider client={client}>
+                <App />
+        </ApolloProvider>
+    </BrowserRouter>
 );
 
 ReactDOM.render(WrappedApp, document.getElementById('root'));
