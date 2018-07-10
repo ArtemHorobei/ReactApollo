@@ -5,7 +5,7 @@ import { HERO_QUERY } from '../../query/query';
 
 const propTypes = {
     episode: PropTypes.string,
-    children: PropTypes.object,
+    children: PropTypes.func,
 };
 
 const HeroQuery = ({ episode, children }) => (

@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import Loader from '../Loader';
 
 const propTypes = {
     loading: PropTypes.bool,
@@ -9,14 +10,10 @@ const propTypes = {
 
 const Character = ({ loading, error, hero }) => {
     if (loading) {
-        return (
-            <div>Loading</div>
-        );
+        return <Loader />;
     }
     if (error) {
-        return (
-            <h1>ERROR</h1>
-        );
+        return <h1>ERROR</h1>;
     }
     return (
         <div>
