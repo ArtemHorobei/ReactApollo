@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+  .App-header {
+    background-image: url("../../images/header.jpg");
+    background-position: center;
+    height: 350px;
+    padding: 20px;
+    color: white;
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+      height: 280px;
+    }
+    .App-title {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.sw-sidebar-episode {
+  font-size: 20px;
+  color: dodgerblue;
+  margin-bottom: 10px;
+  &:hover {
+    cursor: pointer;
+    color: #3a79ee;
+  }
+}
+.choose {
+  font-size: 20px;
+  font-weight: bold;
+  color: dodgerblue;
+  margin-bottom: 10px;
+  &:hover {
+    cursor: pointer;
+    color: #3a79ee;
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  .left-area {
+    width: 15%;
+  }
+  .center-area {
+    width: 70%;
+  }
+  .right-area {
+    width: 15%;
+  }
+}
+

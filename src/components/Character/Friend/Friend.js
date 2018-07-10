@@ -10,7 +10,7 @@ const propTypes = {
 const Friend = ({ friend }) => {
     return (
         <div className="sw-character-friend-wrap" key={friend.id}>
-            <img className="sw-character-friend-photo" src={avatarObject[friend.name]} />
+            <img className="sw-character-friend-photo" src={avatarObject[friend.name]} alt="characterPhoto" />
             <span className="sw-character-name">{friend.name}:</span>
             {friend.appearsIn.map(item => item && item.toLowerCase().charAt(0).toUpperCase() + item.toLowerCase().slice(1)).join(', ')}
         </div>

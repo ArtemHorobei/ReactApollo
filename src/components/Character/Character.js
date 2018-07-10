@@ -1,11 +1,13 @@
 import './Character.scss';
+import avatarObject from '../../helpers/avatarChooser';
+import chewbacca from '../../images/chewbacca.jpg';
+import episodeObject from '../../helpers/episodeChooser';
+import Friends from './Friends';
+import { graphql } from 'react-apollo';
+import { HERO_QUERY } from '../../query/query';
+import Loader from '../Loader';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Friends from './Friends';
-import Loader from '../Loader';
-import avatarObject from '../../helpers/avatarChooser';
-import episodeObject from '../../helpers/episodeChooser';
-import chewbacca from '../../images/chewbacca.jpg';
 
 const propTypes = {
     loading: PropTypes.bool,
@@ -15,7 +17,7 @@ const propTypes = {
 };
 
 const Character = ({
-    loading, error, hero, episode,
+    getHero: { loading, error, hero }, episode,
 }) => {
     if (loading) return <Loader />;
     if (error) return <div><h1>ERROR</h1><img src={chewbacca} alt="error"/></div>;
@@ -23,6 +25,7 @@ const Character = ({
         <div className="sw-character-main">
             <img
                 src={avatarObject[hero.name]}
+                alt="characterPhoto"
                 className="sw-character-main-photo"
             />
             <h3>{hero.name}</h3>
@@ -41,4 +44,4 @@ const Character = ({
 
 Character.propTypes = propTypes;
 
-export default Character;
+export default graphql(HERO_QUERY, { name: 'getHero' })(Character);
