@@ -9,10 +9,7 @@ const propTypes = {
 };
 
 const HeroQuery = ({ episode, children }) => (
-    <Query
-        query={HERO_QUERY}
-        variables={{ episode }}
-    >
+    <Query query={HERO_QUERY} variables={{ episode }} >
         {
             (result) => {
                 const { loading, error, data } = result;

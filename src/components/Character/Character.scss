@@ -1,0 +1,17 @@
+.sw-character-wrap {
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  .sw-character-main {
+    display: flex;
+    align-items: center;
+    .sw-character-main-photo {
+      object-fit: cover;
+      border-radius: 50%;
+      width: 90px;
+      height: 90px;
+      margin-right: 10px;
+    }
+  }
+}

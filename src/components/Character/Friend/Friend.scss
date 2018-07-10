@@ -1,0 +1,19 @@
+.sw-character-friend-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  .sw-character-friend-photo {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  .sw-character-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+}
