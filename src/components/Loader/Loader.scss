@@ -1,0 +1,35 @@
+.ball-loader {
+  width: 60px;
+  height: 10px;
+  position: relative;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.ball-loader-ball {
+  will-change: transform;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #3a79ee;
+  position: absolute;
+  animation: grow 0.5s ease-in-out infinite alternate;
+  &.ball1 {
+    left:0;
+    transform-origin: 100% 50%;
+  }
+  &.ball2 {
+    left:50%;
+    transform: translateX(-50%) scale(1);
+    animation-delay: 0.33s;
+  }
+  &.ball3 {
+    right:0;
+    animation-delay: 0.66s;
+  }
+}
+@keyframes grow{
+  to{
+    transform: translateX(-50%) scale(0);
+  }
+}

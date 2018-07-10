@@ -4,7 +4,7 @@ import Character from '../Character';
 import HeroQuery from '../HeroQuery';
 import logo from '../../images/logo.png';
 
-export const App = () => {
+const App = () => {
     return (
         <div className="App">
             <header className="App-header">
