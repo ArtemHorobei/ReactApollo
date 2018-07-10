@@ -11,7 +11,7 @@ const App = () => {
                 <img src={logo} className="App-logo" alt="logo" />
                 <h1 className="App-title">Welcome to Star Wars university with React Apollo</h1>
             </header>
-            <HeroQuery episode="JEDI">{result => <Character {...result} />}</HeroQuery>
+            <HeroQuery episode="EMPIRE">{result => <Character {...result} />}</HeroQuery>
         </div>
     );
 };

@@ -16,6 +16,7 @@ const HeroQuery = ({ episode, children }) => (
                 return children({
                     loading,
                     error,
+                    episode,
                     hero: data && data.hero,
                 });
             }
