@@ -1,7 +1,7 @@
 const episodeObject = {
-    NEWHOPE: 'Star Wars Episode IV: A New Hope',
-    EMPIRE: 'Star Wars, episode 4, Hew Hope',
-    JEDI: 'Star Wars, episode 4, Hew Hope',
+    NEWHOPE: 'Star Wars Episode IV - A New Hope',
+    EMPIRE: 'Star Wars: Episode V - The Empire Strikes Back',
+    JEDI: 'Star Wars: Episode VI - Return of the Jedi',
 };
 
 export default episodeObject;
