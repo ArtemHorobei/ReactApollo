@@ -1,8 +1,9 @@
+import App from './components/App/App';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App/App';
+import { BrowserRouter } from 'react-router-dom';
 
 const client = new ApolloClient({
     uri: 'https://mpjk0plp9.lp.gql.zone/graphql',
@@ -10,7 +11,9 @@ const client = new ApolloClient({
 
 const WrappedApp = (
     <ApolloProvider client={client}>
-        <App />
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
     </ApolloProvider>
 );
 
