@@ -1,13 +1,20 @@
 import React from 'react';
-import { HERO_QUERY } from '../../query/query';
+import PropTypes from 'prop-types';
 import { Query } from 'react-apollo';
+import { HERO_QUERY } from '../../query/query';
+
+const propTypes = {
+    episode: PropTypes.string,
+    children: PropTypes.object,
+};
 
 const HeroQuery = ({ episode, children }) => (
     <Query
         query={HERO_QUERY}
-        variables={{ episode }}>
+        variables={{ episode }}
+    >
         {
-            result => {
+            (result) => {
                 const { loading, error, data } = result;
                 return children({
                     loading,
@@ -18,5 +25,7 @@ const HeroQuery = ({ episode, children }) => (
         }
     </Query>
 );
+
+HeroQuery.propTypes = propTypes;
 
 export default HeroQuery;
