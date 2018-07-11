@@ -1,6 +1,5 @@
 import './EpisodePage.scss';
 import Character from '../Character';
-import { Link } from 'react-router-dom';
 import React from 'react';
 
 class EpisodePage extends React.Component {
@@ -14,7 +13,6 @@ class EpisodePage extends React.Component {
     render() {
         return (
             <div className="container">
-                <Link to="/hero/1">link</Link>
                 <div className="left-area">
                     <h2>Choose episode</h2>
                     <div className={`sw-sidebar-episode ${this.state.episode === 'NEWHOPE' && 'choose'}`} onClick={() => this.handleClickEpisode('NEWHOPE')}>Episode IV</div>

@@ -8,7 +8,7 @@ const propTypes = {
 };
 
 const Friends = ({ friends }) => {
-    const heroFriends = friends && friends.map(friend => <Friend friend={friend} />);
+    const heroFriends = friends && friends.map(friend => <Friend key={friend.id} friend={friend} />);
     return (
         <div className="sw-character-friends-wrap">
             <span className="sw-character-friends-title">Friends</span>

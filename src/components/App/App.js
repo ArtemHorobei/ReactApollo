@@ -12,7 +12,7 @@ const App = () => {
                 <img src={logo} className="App-logo" alt="logo" />
                 <h1 className="App-title">Welcome to Star Wars university with React Apollo</h1>
             </header>
-            <div>
+            <div style={{ padding: '15px' }}>
                 <Switch>
                     <Route exact path="/" component={EpisodePage} />
                     <Route exact path="/hero/:id" component={HeroPage} />

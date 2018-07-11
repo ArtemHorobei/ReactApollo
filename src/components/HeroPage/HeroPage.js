@@ -1,8 +1,10 @@
 import './HeroPage.scss';
+import Hero from './Hero';
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
-const HeroPage = () => {
-    return <div>Hero page</div>
+const HeroPage = ({ match: { params } }) => {
+    return <div><Hero id={params.id}/></div>
 }
 
-export default HeroPage;
+export default withRouter(HeroPage);
