@@ -16,6 +16,7 @@ const propTypes = {
 const Hero = ({
     getCharacter: { loading, error, character },
 }) => {
+    console.log(character);
     if (loading) return <Loader />;
     if (error) return <div><h1>ERROR</h1><img src={chewbacca} alt="error"/></div>;
     const currentHero = character && (

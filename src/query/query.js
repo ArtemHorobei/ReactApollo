@@ -15,19 +15,28 @@ export const EPISODE_QUERY = gql`
 `;
 
 export const CHARACTER_QUERY = gql`
-    fragment additionalFields on Human {
+    fragment additionalFieldsHuman on Human {
         height
         mass
         starships {
             id
+            name
+            length
         }
+    }
+    fragment additionalFieldsDroid on Droid {
+        primaryFunction
     }
     query GetCharacter($id: ID!) {
         character(id: $id) {
-            ...additionalFields
+            ...additionalFieldsHuman
+            ...additionalFieldsDroid
             name
             id
+            appearsIn
             friends {
+                ...additionalFieldsHuman
+                ...additionalFieldsDroid
                 name
                 id
                 appearsIn

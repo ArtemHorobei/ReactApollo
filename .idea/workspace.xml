@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5a1c309-5a87-444d-9957-c30e49435ca0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/tarkin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/vader.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/HeroPage/Hero/Hero.js" afterPath="$PROJECT_DIR$/src/components/HeroPage/Hero/Hero.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/avatarChooser.js" afterPath="$PROJECT_DIR$/src/helpers/avatarChooser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/query/query.js" afterPath="$PROJECT_DIR$/src/query/query.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,9 +25,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -29,9 +37,11 @@
       <file leaf-file-name="EpisodePage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/EpisodePage/EpisodePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-              <folding />
+            <state relative-caret-position="420">
+              <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +49,8 @@
       <file leaf-file-name="Character.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Character/Character.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="25" column="87" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="87" />
+            <state relative-caret-position="980">
+              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -48,24 +58,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Friends.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Character/Friends/Friends.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Character/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
+            <state relative-caret-position="40">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Friend.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Character/Friend/Friend.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -73,40 +71,88 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="400">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HeroPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/HeroPage/HeroPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hero.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/HeroPage/Hero/Hero.scss">
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1531723130089" expanded="true" signature="0:441493" ph="{&quot;name&quot;: &quot;react-apollo-app&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="116:441491" ph="{...}" />
+                <marker date="1531723130089" expanded="true" signature="2876:3047" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="437103:437164" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="437123:437158" ph="{&quot;mkdirp&quot;: &quot;0.5.1&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="437191:437562" ph="{&quot;version&quot;: &quot;2.3.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="437451:437556" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="437583:437755" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="437783:437969" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="437984:438144" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="438158:438316" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="438333:438497" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="438512:440394" ph="{&quot;version&quot;: &quot;7.1.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="438686:439116" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="439140:440388" ph="{...}" />
+                <marker date="1531723130089" expanded="true" signature="439163:439347" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="439366:439684" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="439556:439674" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="439721:440007" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="439947:439997" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="440033:440380" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="440237:440370" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="440416:440887" ph="{&quot;version&quot;: &quot;5.0.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="440604:440642" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="440666:440881" ph="{...}" />
+                <marker date="1531723130089" expanded="true" signature="440689:440873" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="440911:441151" ph="{&quot;version&quot;: &quot;0.8.8&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="441178:441487" ph="{&quot;version&quot;: &quot;0.8.9&quot;...}" />
+                <marker date="1531723130089" expanded="true" signature="441438:441481" ph="{&quot;zen-observable&quot;: &quot;0.8.8&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hero.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/HeroPage/Hero/Hero.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            <state relative-caret-position="240">
+              <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1531723129977" expanded="true" signature="0:3069" ph="{&quot;name&quot;: &quot;react-apollo-app&quot;...}" />
+                <marker date="1531723129977" expanded="true" signature="91:596" ph="{&quot;apollo-boost&quot;: &quot;^0.1.10&quot;...}" />
+                <marker date="1531723129977" expanded="true" signature="1522:2068" ph="{&quot;eslint-config-react-app&quot;: &quot;^2.1.0&quot;...}" />
+                <marker date="1531723129977" expanded="true" signature="1965:2068" ph="{&quot;eslint&quot;: &quot;^4.19.1&quot;...}" />
+                <marker date="1531723129977" expanded="true" signature="2080:2956" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+                <marker date="1531723129977" expanded="true" signature="2109:2146" ph="[...]" />
+                <marker date="1531723129977" expanded="true" signature="2166:2211" ph="[...]" />
+                <marker date="1531723129977" expanded="true" signature="2230:2346" ph="[...]" />
+                <marker date="1531723129977" expanded="true" signature="2431:2648" ph="{&quot;^.+\.(js|jsx|mjs)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+                <marker date="1531723129977" expanded="true" signature="2681:2741" ph="[...]" />
+                <marker date="1531723129977" expanded="true" signature="2767:2817" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+                <marker date="1531723129977" expanded="true" signature="2847:2952" ph="[...]" />
+                <marker date="1531723129977" expanded="true" signature="2969:3015" ph="{...}" />
+                <marker date="1531723129977" expanded="true" signature="2986:3011" ph="[...]" />
+                <marker date="1531723129977" expanded="true" signature="3035:3067" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avatarChooser.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/helpers/avatarChooser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,8 +161,8 @@
       <file leaf-file-name="query.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/query/query.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="480">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -144,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/query.js" />
         <option value="$PROJECT_DIR$/src/HeroQuery.js" />
         <option value="$PROJECT_DIR$/src/Character.js" />
@@ -152,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/Character/index.js" />
         <option value="$PROJECT_DIR$/src/components/HeroQuery/index.js" />
-        <option value="$PROJECT_DIR$/.eslintrc.js" />
         <option value="$PROJECT_DIR$/src/components/Loader/index.js" />
         <option value="$PROJECT_DIR$/src/components/Loader/Loader.css" />
         <option value="$PROJECT_DIR$/src/components/Loader/Loader.scss" />
@@ -161,7 +205,6 @@
         <option value="$PROJECT_DIR$/config/webpack.config.dev.js" />
         <option value="$PROJECT_DIR$/src/components/Character/Friends/index.js" />
         <option value="$PROJECT_DIR$/src/components/App/App.css" />
-        <option value="$PROJECT_DIR$/src/helpers/avatarChooser.js" />
         <option value="$PROJECT_DIR$/src/components/Character/Friend/index.js" />
         <option value="$PROJECT_DIR$/src/components/Character/Friends/Friends.scss" />
         <option value="$PROJECT_DIR$/src/components/Character/Friend/Friend.scss" />
@@ -170,7 +213,6 @@
         <option value="$PROJECT_DIR$/src/components/Character/Character.scss" />
         <option value="$PROJECT_DIR$/src/components/EpisodePage/index.js" />
         <option value="$PROJECT_DIR$/src/components/App/App.scss" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/App/App.js" />
         <option value="$PROJECT_DIR$/src/components/EpisodePage/EpisodePage.scss" />
         <option value="$PROJECT_DIR$/src/components/HeroPage/Hero/index.js" />
@@ -179,8 +221,12 @@
         <option value="$PROJECT_DIR$/src/components/EpisodePage/EpisodePage.js" />
         <option value="$PROJECT_DIR$/src/components/Character/Character.js" />
         <option value="$PROJECT_DIR$/src/components/Character/Friend/Friend.js" />
-        <option value="$PROJECT_DIR$/src/query/query.js" />
         <option value="$PROJECT_DIR$/src/components/HeroPage/Hero/Hero.js" />
+        <option value="$PROJECT_DIR$/src/helpers/avatarChooser.js" />
+        <option value="$PROJECT_DIR$/src/query/query.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -226,8 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,46 +284,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-apollo-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-apollo-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-apollo-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-apollo-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/mobile-investarena" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -290,19 +304,19 @@
     <property name="standardjs.codestyle.accepted" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+      <recent name="$PROJECT_DIR$/src/components/EpisodePage" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/helpers" />
+      <recent name="$PROJECT_DIR$/src/components/Character/Friends" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/HeroQuery" />
       <recent name="$PROJECT_DIR$/src/components/query" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/EpisodePage" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/helpers" />
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src/components/Character/Friends" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -457,7 +471,10 @@
       <workItem from="1531147357715" duration="902000" />
       <workItem from="1531200154319" duration="13799000" />
       <workItem from="1531236972471" duration="291000" />
-      <workItem from="1531286288247" duration="10962000" />
+      <workItem from="1531286288247" duration="11591000" />
+      <workItem from="1531389479187" duration="5694000" />
+      <workItem from="1531719347126" duration="2812000" />
+      <workItem from="1531722887801" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="add packages">
       <created>1531147761497</created>
@@ -550,21 +567,27 @@
       <option name="project" value="LOCAL" />
       <updated>1531298748327</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add link to heroes">
+      <created>1531305346631</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1531305346631</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28811000" />
+    <option name="totallyTimeSpent" value="38269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25815368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26755112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -577,6 +600,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -624,13 +648,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/Character/Character.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Character/Friend/Friend.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -643,9 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -668,7 +682,7 @@
         <state relative-caret-position="260">
           <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -695,7 +709,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="27" column="62" lean-forward="false" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
-          <folding />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,7 +719,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -712,19 +730,21 @@
         <state relative-caret-position="460">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <marker date="1531231793321" expanded="true" signature="91:1603" ph="{&quot;apollo-boost&quot;: &quot;^0.1.10&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="1618:1746" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="1769:2204" ph="{&quot;eslint&quot;: &quot;^4.19.1&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2216:3092" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2245:2282" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2302:2347" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2366:2482" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2567:2784" ph="{&quot;^.+\.(js|jsx|mjs)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2817:2877" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2903:2953" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2983:3088" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="3105:3151" ph="{...}" />
-            <marker date="1531231793321" expanded="true" signature="3122:3147" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="0:3069" ph="{&quot;name&quot;: &quot;react-apollo-app&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="91:596" ph="{&quot;apollo-boost&quot;: &quot;^0.1.10&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="1522:2068" ph="{&quot;eslint-config-react-app&quot;: &quot;^2.1.0&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="1965:2068" ph="{&quot;eslint&quot;: &quot;^4.19.1&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2080:2956" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2109:2146" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2166:2211" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2230:2346" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2431:2648" ph="{&quot;^.+\.(js|jsx|mjs)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2681:2741" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2767:2817" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2847:2952" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2969:3015" ph="{...}" />
+            <marker date="1531723129977" expanded="true" signature="2986:3011" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="3035:3067" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -734,13 +754,12 @@
         <state relative-caret-position="80">
           <caret line="4" column="33" lean-forward="false" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js" />
     <entry file="file://$PROJECT_DIR$/src/components/HeroQuery/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -759,13 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Character/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -812,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/avatarChooser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Character/Friends/Friends.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -855,28 +860,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc.json" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <marker date="1531231793321" expanded="true" signature="91:1603" ph="{&quot;apollo-boost&quot;: &quot;^0.1.10&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="1618:1746" ph="{&quot;start&quot;: &quot;node scripts/start.js&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="1769:2204" ph="{&quot;eslint&quot;: &quot;^4.19.1&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2216:3092" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2245:2282" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2302:2347" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2366:2482" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2567:2784" ph="{&quot;^.+\.(js|jsx|mjs)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2817:2877" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="2903:2953" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
-            <marker date="1531231793321" expanded="true" signature="2983:3088" ph="[...]" />
-            <marker date="1531231793321" expanded="true" signature="3105:3151" ph="{...}" />
-            <marker date="1531231793321" expanded="true" signature="3122:3147" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/App/App.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -895,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,45 +917,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeroPage/HeroPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Character/Friends/Friends.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="10" column="81" lean-forward="false" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/EpisodePage/EpisodePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Character/Character.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="25" column="87" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,34 +928,158 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="2" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeroPage/HeroPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HeroPage/Hero/Hero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EpisodePage/EpisodePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/query/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Character/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Character/Character.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/query/query.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HeroPage/Hero/Hero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="400">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1531723130089" expanded="true" signature="0:441493" ph="{&quot;name&quot;: &quot;react-apollo-app&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="116:441491" ph="{...}" />
+            <marker date="1531723130089" expanded="true" signature="2876:3047" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="437103:437164" ph="{&quot;version&quot;: &quot;0.2.1&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="437123:437158" ph="{&quot;mkdirp&quot;: &quot;0.5.1&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="437191:437562" ph="{&quot;version&quot;: &quot;2.3.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="437451:437556" ph="{&quot;graceful-fs&quot;: &quot;4.1.11&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="437583:437755" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="437783:437969" ph="{&quot;version&quot;: &quot;2.0.1&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="437984:438144" ph="{&quot;version&quot;: &quot;4.0.1&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="438158:438316" ph="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="438333:438497" ph="{&quot;version&quot;: &quot;2.1.2&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="438512:440394" ph="{&quot;version&quot;: &quot;7.1.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="438686:439116" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="439140:440388" ph="{...}" />
+            <marker date="1531723130089" expanded="true" signature="439163:439347" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="439366:439684" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="439556:439674" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="439721:440007" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="439947:439997" ph="{&quot;number-is-nan&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="440033:440380" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="440237:440370" ph="{&quot;code-point-at&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="440416:440887" ph="{&quot;version&quot;: &quot;5.0.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="440604:440642" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="440666:440881" ph="{...}" />
+            <marker date="1531723130089" expanded="true" signature="440689:440873" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="440911:441151" ph="{&quot;version&quot;: &quot;0.8.8&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="441178:441487" ph="{&quot;version&quot;: &quot;0.8.9&quot;...}" />
+            <marker date="1531723130089" expanded="true" signature="441438:441481" ph="{&quot;zen-observable&quot;: &quot;0.8.8&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="54" column="36" lean-forward="false" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+          <folding>
+            <marker date="1531723129977" expanded="true" signature="0:3069" ph="{&quot;name&quot;: &quot;react-apollo-app&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="91:596" ph="{&quot;apollo-boost&quot;: &quot;^0.1.10&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="1522:2068" ph="{&quot;eslint-config-react-app&quot;: &quot;^2.1.0&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="1965:2068" ph="{&quot;eslint&quot;: &quot;^4.19.1&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2080:2956" ph="{&quot;testEnvironment&quot;: &quot;node&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2109:2146" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2166:2211" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2230:2346" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2431:2648" ph="{&quot;^.+\.(js|jsx|mjs)$&quot;: &quot;&lt;rootDir&gt;/node_modules/babel-jest&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2681:2741" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2767:2817" ph="{&quot;^react-native$&quot;: &quot;react-native-web&quot;...}" />
+            <marker date="1531723129977" expanded="true" signature="2847:2952" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="2969:3015" ph="{...}" />
+            <marker date="1531723129977" expanded="true" signature="2986:3011" ph="[...]" />
+            <marker date="1531723129977" expanded="true" signature="3035:3067" ph="{&quot;extends&quot;: &quot;react-app&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/avatarChooser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
